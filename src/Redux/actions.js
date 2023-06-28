@@ -10,7 +10,9 @@ export const addFav = (character) => {
                payload: data,
             });
          }
-   } catch (error) {
+         
+      // eslint-disable-next-line
+   } catch (error){
       console.log(error.message);
    }
 };

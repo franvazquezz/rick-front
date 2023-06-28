@@ -26,10 +26,6 @@ function App() {
       }
     };
   
-    const logout = async () => {
-      const { data } = await axios('/logout');
-      setAccess(data.access)
-    };
    
     useEffect(() => {
       access ? navigate('/home') : navigate('/');
