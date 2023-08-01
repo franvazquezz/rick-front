@@ -7,7 +7,7 @@ import App from './App';
 import store from './Redux/store';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://rick-back-production-dd5d.up.railway.app/rickandmorty';
+axios.defaults.baseURL = 'https://rickmortyapp.onrender.com/rickandmorty';
 
 
 createRoot(document.getElementById('root'))
